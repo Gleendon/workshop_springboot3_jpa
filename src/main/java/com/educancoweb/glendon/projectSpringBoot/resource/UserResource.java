@@ -10,12 +10,11 @@ import com.educancoweb.glendon.projectSpringBoot.entities.User;
 @RestController
 @RequestMapping(value = "/users")
 public class UserResource {
-	//recursos rest para comunicar com o front end
 	
 	 //metodo que responde ao tipo GET do HTTP 
 	@GetMapping
 	
-	//ResponseEntity retorna as respostas de requisiçõe web
+	//ResponseEntity retorna as respostas de requisiçõe
 	public ResponseEntity<User> findAll(){
 		
 		//"retorno" do banco de dados
