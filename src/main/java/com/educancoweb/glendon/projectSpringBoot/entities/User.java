@@ -9,6 +9,12 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
+
+/* Anotações do JPA para converter o objeto para o modelo realacional do BD
+ obs: Biblioteca persistence é a especificação(Interface) do JPA
+ e o hibernate é a implementação. A classe deve dependender da especificação. 
+ */
+
 @Entity
 @Table(name = "tb_user")
 public class User implements Serializable{
