@@ -12,6 +12,12 @@ import org.springframework.web.bind.annotation.RestController;
 import com.educancoweb.glendon.projectSpringBoot.entities.Order;
 import com.educancoweb.glendon.projectSpringBoot.services.OrderService;
 
+
+/*
+ * é a camada rest responsável por fazer a comunicação com aplicações externas
+ * o controller instancia um service
+ */
+
 @RestController
 @RequestMapping(value = "/orders")
 public class OrderResource {

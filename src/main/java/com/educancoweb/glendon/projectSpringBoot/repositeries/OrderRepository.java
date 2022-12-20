@@ -5,9 +5,9 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import com.educancoweb.glendon.projectSpringBoot.entities.Order;
 
 /*
- * camada responsável por acessar as informações no banco de dados
- * implementando as princiapis operações de acesso ao BD
- * JPA possui uma implementação padrão não precisa instanciar a interface
+ * Camada responsável por acessar as informações no banco de dados
+ * A JPA possui uma implementação padrão para operações no BAD
+ * não precisa instanciar a interface que extende o JPARepository
  */
 
 public interface OrderRepository extends JpaRepository<Order, Long>{
